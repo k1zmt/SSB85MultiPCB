@@ -1,0 +1,1947 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b5f522e5-d516-4528-adae-507ce91eed6d)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:L_Ferrite" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "L" (at -1.27 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "L_Ferrite" (at 2.794 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Inductor with ferrite core" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "L_Ferrite_0_1"
+        (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -2.794)
+            (xy 1.016 -2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -1.778)
+            (xy 1.016 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 -0.762)
+            (xy 1.016 -0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 0.254)
+            (xy 1.016 0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 1.27)
+            (xy 1.016 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 2.286)
+            (xy 1.016 2.794)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 -2.286)
+            (xy 1.524 -2.794)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 -1.27)
+            (xy 1.524 -1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 -0.254)
+            (xy 1.524 -0.762)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 0.762)
+            (xy 1.524 0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 1.778)
+            (xy 1.524 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.524 2.794)
+            (xy 1.524 2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "L_Ferrite_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Relay:G6K-2" (in_bom yes) (on_board yes)
+      (property "Reference" "K" (at 16.51 3.81 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "G6K-2" (at 16.51 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "Miniature Relay Dual Pole DPDT Omron" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Miniature 2-pole relay, Single-side Stable" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Relay*DPDT*Omron*G6K?2*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "G6K-2_0_0"
+        (text "+" (at -9.271 2.921 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "G6K-2_0_1"
+        (rectangle (start -15.24 5.08) (end 15.24 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (rectangle (start -13.335 1.905) (end -6.985 -1.905)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -12.7 -1.905)
+            (xy -7.62 1.905)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -10.16 -5.08)
+            (xy -10.16 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -10.16 5.08)
+            (xy -10.16 1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.985 0)
+            (xy -6.35 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.715 0)
+            (xy -5.08 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.445 0)
+            (xy -3.81 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.175 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 0)
+            (xy 0 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy -1.905 3.81)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy 0 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.905 0)
+            (xy 2.54 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.175 0)
+            (xy 3.81 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 4.445 0)
+            (xy 5.08 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 5.715 0)
+            (xy 6.35 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 6.985 0)
+            (xy 7.62 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 8.255 0)
+            (xy 8.89 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.255 3.81)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 10.16 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 5.08)
+            (xy -2.54 2.54)
+            (xy -1.905 3.175)
+            (xy -2.54 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 2.54 5.08)
+            (xy 2.54 2.54)
+            (xy 1.905 3.175)
+            (xy 2.54 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 5.08)
+            (xy 7.62 2.54)
+            (xy 8.255 3.175)
+            (xy 7.62 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 12.7 5.08)
+            (xy 12.7 2.54)
+            (xy 12.065 3.175)
+            (xy 12.7 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "G6K-2_1_1"
+        (pin passive line (at -10.16 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -2.54 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -7.62 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 12.7 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 10.16 -7.62 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 7.62 270) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -10.16 -7.62 90) (length 2.54)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Transistor_FET:AO3400A" (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 5.08 1.905 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "AO3400A" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 5.08 -1.905 0)
+        (effects (font (size 1.27 1.27) italic) (justify left) hide)
+      )
+      (property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "ki_keywords" "N-Channel MOSFET" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "AO3400A_0_1"
+        (polyline
+          (pts
+            (xy 0.254 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.27)
+            (xy 0.762 -2.286)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 0.508)
+            (xy 0.762 -0.508)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 2.286)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 2.54 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.016 0)
+            (xy 2.032 0.381)
+            (xy 2.032 -0.381)
+            (xy 1.016 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 2.794 0.508)
+            (xy 2.921 0.381)
+            (xy 3.683 0.381)
+            (xy 3.81 0.254)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.302 0.381)
+            (xy 2.921 -0.254)
+            (xy 3.683 -0.254)
+            (xy 3.302 0.381)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 1.651 0) (radius 2.794)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.54 -1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 2.54 1.778) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "AO3400A_1_1"
+        (pin input line (at -5.08 0 0) (length 2.54)
+          (name "G" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:Earth" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "Earth" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global ground gnd" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"Earth\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Earth_0_1"
+        (polyline
+          (pts
+            (xy -0.635 -1.905)
+            (xy 0.635 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.127 -2.54)
+            (xy 0.127 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Earth_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "Earth" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 163.83 34.29) (diameter 0) (color 0 0 0 0)
+    (uuid 097d1f1f-d170-4734-b96e-11a912e0e486)
+  )
+  (junction (at 134.62 34.29) (diameter 0) (color 0 0 0 0)
+    (uuid 1a124110-6df9-4223-95c6-710d4e88eeea)
+  )
+  (junction (at 219.71 72.39) (diameter 0) (color 0 0 0 0)
+    (uuid 7c8c3203-8876-4ff2-a946-a2dd362005e4)
+  )
+  (junction (at 110.49 92.71) (diameter 0) (color 0 0 0 0)
+    (uuid a3fd6736-a652-41f2-8737-a245372ef78a)
+  )
+  (junction (at 161.29 72.39) (diameter 0) (color 0 0 0 0)
+    (uuid be0b9c8d-b0db-41f5-92f7-2f147e756e38)
+  )
+  (junction (at 110.49 34.29) (diameter 0) (color 0 0 0 0)
+    (uuid c459c98e-556c-439c-aac2-5560bc34d5b2)
+  )
+  (junction (at 93.98 34.29) (diameter 0) (color 0 0 0 0)
+    (uuid d584493c-6988-412f-b88b-606ce81f51af)
+  )
+  (junction (at 113.03 69.85) (diameter 0) (color 0 0 0 0)
+    (uuid f90687db-c836-4c73-84a1-ee2f8fb82cce)
+  )
+
+  (wire (pts (xy 93.98 34.29) (xy 96.52 34.29))
+    (stroke (width 0) (type default))
+    (uuid 05d85c3f-6441-4604-a136-c0071c5b81e8)
+  )
+  (wire (pts (xy 229.87 63.5) (xy 161.29 63.5))
+    (stroke (width 0) (type default))
+    (uuid 071dbf59-22ec-4860-9674-dd15669256d8)
+  )
+  (wire (pts (xy 123.19 72.39) (xy 123.19 69.85))
+    (stroke (width 0) (type default))
+    (uuid 115dd43e-f2b2-4da1-b674-9f0a99a08f3f)
+  )
+  (wire (pts (xy 113.03 69.85) (xy 113.03 72.39))
+    (stroke (width 0) (type default))
+    (uuid 127acc73-468e-4528-a08e-9111bb5c24d1)
+  )
+  (wire (pts (xy 217.17 96.52) (xy 217.17 87.63))
+    (stroke (width 0) (type default))
+    (uuid 13bb7ddf-9bd6-4907-bf7e-9a7918dd601c)
+  )
+  (wire (pts (xy 161.29 63.5) (xy 161.29 72.39))
+    (stroke (width 0) (type default))
+    (uuid 1be28785-c5a4-4d9f-a518-cb29977fdc93)
+  )
+  (wire (pts (xy 110.49 34.29) (xy 118.11 34.29))
+    (stroke (width 0) (type default))
+    (uuid 21e0704e-ad80-4ae4-9545-89e0c11e3528)
+  )
+  (wire (pts (xy 125.73 34.29) (xy 134.62 34.29))
+    (stroke (width 0) (type default))
+    (uuid 24f7eba5-9f26-4e82-9d3e-d2cdf2698145)
+  )
+  (wire (pts (xy 104.14 34.29) (xy 110.49 34.29))
+    (stroke (width 0) (type default))
+    (uuid 29c15212-25f3-45f5-b385-ef108f4d4576)
+  )
+  (wire (pts (xy 276.86 69.85) (xy 276.86 34.29))
+    (stroke (width 0) (type default))
+    (uuid 4057f07e-5f03-4cb8-bc58-0b1ba4c808ea)
+  )
+  (wire (pts (xy 209.55 72.39) (xy 219.71 72.39))
+    (stroke (width 0) (type default))
+    (uuid 4f0a8156-7b20-4f8c-967f-033c88dfd6de)
+  )
+  (wire (pts (xy 120.65 87.63) (xy 120.65 99.06))
+    (stroke (width 0) (type default))
+    (uuid 521a0de9-8c3d-4b8b-b7b0-5f25337576f4)
+  )
+  (wire (pts (xy 113.03 69.85) (xy 123.19 69.85))
+    (stroke (width 0) (type default))
+    (uuid 5405dcf9-d5a2-481c-8179-8cc0fa86f731)
+  )
+  (wire (pts (xy 133.35 92.71) (xy 133.35 87.63))
+    (stroke (width 0) (type default))
+    (uuid 59d02eed-b8fb-44bc-9256-aecc0d100b17)
+  )
+  (wire (pts (xy 19.05 69.85) (xy 19.05 34.29))
+    (stroke (width 0) (type default))
+    (uuid 613ef38d-3240-47f9-80e7-d7db3b995686)
+  )
+  (wire (pts (xy 229.87 72.39) (xy 229.87 63.5))
+    (stroke (width 0) (type default))
+    (uuid 69ae4596-9b57-4708-9901-378931b89779)
+  )
+  (wire (pts (xy 163.83 34.29) (xy 276.86 34.29))
+    (stroke (width 0) (type default))
+    (uuid 73d4c57d-bdc1-4a81-b8f0-65f59e697c53)
+  )
+  (wire (pts (xy 161.29 72.39) (xy 161.29 81.28))
+    (stroke (width 0) (type default))
+    (uuid 7e89fbdd-cb19-4275-985a-cbdd91586301)
+  )
+  (wire (pts (xy 120.65 99.06) (xy 110.49 99.06))
+    (stroke (width 0) (type default))
+    (uuid 86ff22be-c18f-4368-a11a-e50352d99f0d)
+  )
+  (wire (pts (xy 133.35 72.39) (xy 161.29 72.39))
+    (stroke (width 0) (type default))
+    (uuid a9bd00f1-be44-4ae8-bd88-e2a37536e724)
+  )
+  (wire (pts (xy 134.62 34.29) (xy 151.13 34.29))
+    (stroke (width 0) (type default))
+    (uuid bc6f3f06-e756-4b10-949a-0a28a414bc43)
+  )
+  (wire (pts (xy 219.71 69.85) (xy 276.86 69.85))
+    (stroke (width 0) (type default))
+    (uuid c3820cb0-8611-4476-a3d4-327c261daccb)
+  )
+  (wire (pts (xy 19.05 34.29) (xy 93.98 34.29))
+    (stroke (width 0) (type default))
+    (uuid c9357089-03d1-4096-ba97-a94525130ca9)
+  )
+  (wire (pts (xy 158.75 34.29) (xy 163.83 34.29))
+    (stroke (width 0) (type default))
+    (uuid d247a741-0c29-46e3-a386-f09cfb76fc4d)
+  )
+  (wire (pts (xy 219.71 69.85) (xy 219.71 72.39))
+    (stroke (width 0) (type default))
+    (uuid da1d2509-fa55-4bfe-9118-b31d1b4467a1)
+  )
+  (wire (pts (xy 113.03 69.85) (xy 19.05 69.85))
+    (stroke (width 0) (type default))
+    (uuid db6f2f55-ae2a-44ed-8681-d9a750fc1f23)
+  )
+  (wire (pts (xy 110.49 87.63) (xy 110.49 92.71))
+    (stroke (width 0) (type default))
+    (uuid e18f6835-14dc-48db-a593-d56f2ba9679f)
+  )
+  (wire (pts (xy 207.01 96.52) (xy 217.17 96.52))
+    (stroke (width 0) (type default))
+    (uuid e2a4a396-0e34-4eac-a3fb-93cdb3b72264)
+  )
+  (wire (pts (xy 207.01 87.63) (xy 207.01 96.52))
+    (stroke (width 0) (type default))
+    (uuid e5f16c13-8218-4af0-81ac-b998df2626de)
+  )
+  (wire (pts (xy 87.63 92.71) (xy 110.49 92.71))
+    (stroke (width 0) (type default))
+    (uuid ebdd41e1-b4c8-419a-9af2-ce03f9229401)
+  )
+  (wire (pts (xy 110.49 99.06) (xy 110.49 92.71))
+    (stroke (width 0) (type default))
+    (uuid f3b3e8cc-73e7-43e4-b610-abc39db5e9e8)
+  )
+
+  (label "FLT15MHZ_1" (at 99.06 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 486e2955-310f-49ea-ad43-5c1daebceb59)
+  )
+  (label "FLT15MHZ_3" (at 137.16 34.29 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 74644d1b-8ff5-4735-97d7-065c513a71ef)
+  )
+  (label "FLT15MHZ_2" (at 106.68 34.29 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 919e74e4-38d1-479d-b70d-461a80351afc)
+  )
+  (label "FLT15MHZ_4" (at 166.37 34.29 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c31dfddf-1344-404b-a0b9-a02587b43ac6)
+  )
+
+  (global_label "FLT_IN" (shape input) (at 87.63 92.71 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4d85337a-457c-495f-82ac-a9c58bf54ed4)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 78.6576 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ACT_20" (shape input) (at 153.67 86.36 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8135451f-1d70-4bc8-94f6-e6931db80098)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 143.972 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "+12V" (shape input) (at 133.35 92.71 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b8dbb49d-5017-400a-9405-4f194eb9313f)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 141.4152 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "FLT_OUT" (shape input) (at 217.17 96.52 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c643f437-c7d3-4424-96c0-a71a4c3834cb)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 227.8357 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 222.25 87.63 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 11bebf44-8af5-4484-9ddd-b8bcf1478148)
+    (property "Reference" "#PWR022" (at 222.25 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 222.25 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 222.25 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 222.25 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6deda0eb-ca1b-44dc-b686-9774a6a04a07))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "#PWR013") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "#PWR049") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "#PWR015") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "#PWR022") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "#PWR081") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "#PWR019") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 161.29 91.44 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1da6bcef-93fe-47ff-acd2-03d242066223)
+    (property "Reference" "#PWR022" (at 161.29 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 161.29 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 161.29 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 161.29 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d00992e9-fe92-472d-af38-a9bc345c04a7))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "#PWR013") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "#PWR049") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "#PWR015") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "#PWR022") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "#PWR053") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "#PWR019") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 163.83 38.1 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 28288220-d851-452f-81dc-3f6a4e5cc735)
+    (property "Reference" "C15" (at 157.48 38.1 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "182" (at 160.02 38.1 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 164.7952 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 163.83 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dbcdbb73-cce6-437c-bc9e-f88d93b52821))
+    (pin "2" (uuid 17e67f90-d38a-445c-88ae-92eefa30f74a))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "C15") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "C15") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "C6") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "C18") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "C6") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "C10") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "C22") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "C26") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "C19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 134.62 41.91 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3fa0db83-e16c-4a83-a15d-b8e2fb77f262)
+    (property "Reference" "#PWR020" (at 134.62 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 134.62 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 134.62 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 134.62 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ddf8ab05-cf9b-4c07-b642-8ba5077ed545))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "#PWR048") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "#PWR014") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "#PWR021") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "#PWR052") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 115.57 87.63 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4af699ce-fe9f-412e-8f3a-68011b6b0fa1)
+    (property "Reference" "#PWR021" (at 115.57 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 115.57 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 115.57 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 115.57 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0b0a0651-1451-4b5c-bfd6-9b8dc07fd6f4))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "#PWR045") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "#PWR050") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 134.62 38.1 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 60385765-c59a-4478-9e47-c84fb54ed8b3)
+    (property "Reference" "C13" (at 128.27 38.1 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "332" (at 130.81 38.1 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 135.5852 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 134.62 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aa6b8542-3ec1-4932-8685-301e3c3acd9c))
+    (pin "2" (uuid 76fd0b94-ec1a-4529-b7d1-c3820bc0fe02))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "C13") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "C15") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "C4") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "C19") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "C5") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "C9") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "C21") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "C25") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "C19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 163.83 41.91 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 64dbec8c-07ee-4ae5-a06c-4378323ea27a)
+    (property "Reference" "#PWR025" (at 163.83 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 163.83 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 163.83 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 163.83 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 475b7c1d-4cb5-4b46-94d5-5c050f491719))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "#PWR016") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "#PWR047") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "#PWR016") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "#PWR023") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "#PWR054") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "#PWR061") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 125.73 87.63 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 73027c46-fe99-4a2f-981e-e95cdacafecc)
+    (property "Reference" "#PWR022" (at 125.73 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 125.73 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 125.73 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 125.73 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 870890c9-1855-4c8e-9c3a-5b4fa1f02539))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "#PWR013") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "#PWR046") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "#PWR013") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "#PWR020") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "#PWR051") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "#PWR019") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_FET:AO3400A") (at 158.75 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7a0b81a0-a9af-4eda-89f9-d95b4673344b)
+    (property "Reference" "Q2" (at 165.1 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "AO3400A" (at 165.1 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 163.83 88.265 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" (at 158.75 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "2" (uuid d4119813-2ab9-465e-ab35-8d774347ab4b))
+    (pin "1" (uuid 42563e44-017b-4306-b091-401b06d1b7a4))
+    (pin "3" (uuid bf643cf4-e48c-4ea3-a8ed-1c5b57a41ed4))
+    (instances
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "Q2") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "Q3") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "Q4") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "Q5") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "Q6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Relay:G6K-2") (at 123.19 80.01 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7f4b2a01-ad3c-4f4c-b9da-ffb7e83e364a)
+    (property "Reference" "K6" (at 139.7 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "QJC2" (at 139.7 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "PhilsFootprintLibrary:Relay_QJC2" (at 123.19 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf" (at 123.19 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "7" (uuid 0476ed56-9a54-4741-8b5f-24ddd6f5e136))
+    (pin "5" (uuid 729fbb31-622e-4451-8afa-f5a5476ada45))
+    (pin "4" (uuid e97febf9-411c-4dc6-8734-4434bca5f612))
+    (pin "3" (uuid d30ec235-f8cb-4944-b780-a07419105fbe))
+    (pin "6" (uuid 7ca592af-6da2-4235-895d-566f1b7f5767))
+    (pin "1" (uuid 31658413-04b4-4989-931b-a1b16956b146))
+    (pin "2" (uuid 6d6aa394-b5c8-406f-8854-fa2df8835bc8))
+    (pin "8" (uuid bde90688-6b56-42bf-9c5a-f25f3e52acac))
+    (instances
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "K6") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "K1") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "K2") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "K4") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "K5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 93.98 41.91 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8368241f-ac52-4d2c-8a95-0d8d72ae3fea)
+    (property "Reference" "#PWR018" (at 93.98 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 93.98 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 93.98 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 93.98 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3f24d4a7-70a1-4dd3-bb64-af657450ff9f))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "#PWR043") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "#PWR09") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "#PWR017") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "#PWR025") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 110.49 41.91 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 845e2dbe-5bc6-419b-85d2-9f55fc56e4ac)
+    (property "Reference" "#PWR020" (at 110.49 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 110.49 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 110.49 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 110.49 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 477f141d-c504-4add-b85c-ac76694e7eaa))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "#PWR044") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "#PWR011") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "#PWR018") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "#PWR026") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:L_Ferrite") (at 121.92 34.29 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9f0ee3e5-eead-4e53-9704-d0a74c6f4d88)
+    (property "Reference" "L3" (at 121.92 27.94 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "6.2uH" (at 121.92 30.48 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_THT:L_Toroid_Vertical_L28.6mm_W14.3mm_P11.43mm_Bourns_5700" (at 121.92 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 121.92 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4b742a17-e67f-4402-b2b0-5c1583645f4b))
+    (pin "2" (uuid e46a2c27-e364-4820-bb50-b3d2001e892a))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "L3") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "L2") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "L7") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "L2") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "L8") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "L11") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "L14") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "L2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:L_Ferrite") (at 154.94 34.29 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a27d5568-b02b-48e4-b83a-a0068d5f8e03)
+    (property "Reference" "L3" (at 154.94 27.94 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5.6uH" (at 154.94 30.48 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_THT:L_Toroid_Vertical_L28.6mm_W14.3mm_P11.43mm_Bourns_5700" (at 154.94 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 154.94 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b69b8b0c-2053-4dba-8aa5-97c89572fe9b))
+    (pin "2" (uuid 5600c623-864d-4425-b665-47bfe52b0d55))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "L3") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "L2") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "L6") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "L3") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "L9") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "L12") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "L15") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "L2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 110.49 38.1 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bceb9164-3866-41ca-ad83-fe85d80b8b6e)
+    (property "Reference" "C13" (at 104.14 38.1 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "332" (at 106.68 38.1 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 111.4552 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 110.49 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ad7fb298-4b02-44b5-8868-a8bc8d369012))
+    (pin "2" (uuid a4aef1d8-c30c-4b64-9c5a-7f42840c0131))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "C13") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "C15") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "C4") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "C17") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "C4") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "C8") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "C20") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "C24") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "C19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Relay:G6K-2") (at 219.71 80.01 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c0866242-5da2-4ef1-9001-8ae49dd7f986)
+    (property "Reference" "K6" (at 236.22 78.74 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "QJC2" (at 236.22 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "PhilsFootprintLibrary:Relay_QJC2" (at 219.71 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf" (at 219.71 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "7" (uuid 70cf88b7-54c7-4123-8090-c93881fc92f9))
+    (pin "5" (uuid 2d06a741-3013-4a3c-b8ed-56eccae36398))
+    (pin "4" (uuid acba264a-d8d7-434d-956e-e9b312d56ad2))
+    (pin "3" (uuid c709453f-2efb-492c-bff1-67486f94ab59))
+    (pin "6" (uuid d0ea5aa8-198a-426c-be18-653757d14b5c))
+    (pin "1" (uuid 77dd4d0e-0c6b-42e5-b83a-3c7fc62901b7))
+    (pin "2" (uuid 7cb2903b-c745-4a4c-9bed-f3a2ce14a926))
+    (pin "8" (uuid 0b61a8e8-0ea9-4c20-bc6f-85de13c47ad2))
+    (instances
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "K6") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "K1") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "K2") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "K10") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "K5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:L_Ferrite") (at 100.33 34.29 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c21b7756-ee99-49a1-99a6-6aaf08340209)
+    (property "Reference" "L2" (at 100.33 27.94 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5.6uH" (at 100.33 30.48 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_THT:L_Toroid_Vertical_L28.6mm_W14.3mm_P11.43mm_Bourns_5700" (at 100.33 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 100.33 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 27c63488-f411-4425-8076-ed5493a49fb1))
+    (pin "2" (uuid 292809a9-7c9f-4fb1-a98a-6f63c02c578b))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "L2") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "L1") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "L5") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "L1") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "L4") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "L10") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "L13") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "L1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:Earth") (at 212.09 87.63 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d4c30da7-4c45-4a2e-81d1-8af4fb505016)
+    (property "Reference" "#PWR022" (at 212.09 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Earth" (at 212.09 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 212.09 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 212.09 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 42a91cca-b99b-40ef-8e90-e1c73eda869a))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "#PWR013") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "#PWR049") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "#PWR015") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "#PWR022") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "#PWR082") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "#PWR060") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "#PWR019") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 93.98 38.1 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ff73a13c-9983-4794-a5eb-e7c904414b43)
+    (property "Reference" "C12" (at 87.63 38.1 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "182" (at 90.17 38.1 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 94.9452 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 93.98 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid abfa773b-33aa-439f-bc2d-c5e2df5e18cb))
+    (pin "2" (uuid c52875d9-8c60-425b-93e7-721ace123022))
+    (instances
+      (project "PA_LPF"
+        (path "/1ed86fdc-64ce-43f7-957f-bddff9127973"
+          (reference "C12") (unit 1)
+        )
+      )
+      (project "BPF_TX_INJ"
+        (path "/9c755e9e-5749-4503-a135-a83399f0fd3f"
+          (reference "C15") (unit 1)
+        )
+      )
+      (project "HiPowerLPF"
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6"
+          (reference "C3") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/71ff1388-ca88-48e7-821d-78fe6422aef3"
+          (reference "C16") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/776f11f6-11b1-468f-9080-611b921b314a"
+          (reference "C3") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/ed4cd788-dbc4-469a-b1e2-4d2a9521170b"
+          (reference "C7") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/7828f5ee-6963-4dff-9d4a-fc3938ba9bbf"
+          (reference "C11") (unit 1)
+        )
+        (path "/c18a544b-b069-4457-a2e7-7e3c4c98bcd6/d70afaac-e49b-41c2-bbf5-47e258056bb1"
+          (reference "C23") (unit 1)
+        )
+      )
+      (project "RF_PA"
+        (path "/d07a44da-ff09-4925-b6cf-96a55d241558"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "AD831_Mixer"
+        (path "/e6185ca7-146a-49d0-b36c-584dffcf8a14"
+          (reference "C19") (unit 1)
+        )
+      )
+    )
+  )
+)

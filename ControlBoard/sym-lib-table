@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "YAAJ_BlackPill")(type "Legacy")(uri "/Users/zoonman/Projects/Personal/KiCad/Libraries/Kicad-STM32-master/Symbols/YAAJ_BlackPill.lib")(options "")(descr ""))
+)
